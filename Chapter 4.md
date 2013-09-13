@@ -20,11 +20,11 @@ How This Recommendation Engine Works
 ------------------------------------
 At a 10,000 foot view, this recommendation works in the following way. 
 
-The transaction log file represents the historic purchases made by prior customers of the web store. The recommendation engine will find patterns in transaction log based the purchase history according to a certain distributed algorithm executed in the cluster. The result is a file stored in HDFS that contains recommendations. Once the recommendations are computed and stored in a file, they are copied from the local HDFS to S3, where our web store can pick them up. 
+The transaction log file represents the historic purchases made by prior customers of the web store. The recommendation engine will find patterns in transaction log based the purchase history according to a certain distributed algorithm executed in the cluster. The result is a file stored in HDFS that contains recommendations. Once the recommendations are computed and stored in a file, they are copied from the HDFS to S3, where our web store can pick them up. 
 
 Now, unfortunately, getting access to real user transactions for a sample web store is quite impossible since the store is fake and no one is really shopping there. Fortunately, we have a generator of transaction logs based on product catalog structure and some configuration parameters. This generator was written by the analytics team in Grid Dynamics who wrote similar generators to some of their real eCommerce customers to be able to train and test their algorithms. The algorithm to produce the transaction log is also written as a Hadoop job. 
 
-Default files can be found here (LINK):
+Default files can be found here:
 - [Transaction log](https://s3.amazonaws.com/gd-bask/transaction_log.txt)
 - [Catalog structure](https://s3.amazonaws.com/gd-bask/product_catalog_structure.json)
 - [Configuration file for transaction log](http://gd-bask.s3.amazonaws.com/scenario-config.json)
