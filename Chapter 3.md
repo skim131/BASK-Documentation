@@ -16,7 +16,6 @@ On Qubell portal, go to the "Applications" tab, and click on "Advanced Launch" f
 
 ![Web store advanced launch](Images/web store adv launch.png)
 Set the input fields to the following values:
-- Name: myStore
 - Environment: Test
 - Destroy in: 4 hours
 
