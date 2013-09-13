@@ -20,7 +20,7 @@ To generate a sample transaction log, click on the "Generate_new_transaction_log
 
 3) Compute New Recommendation
 -----------------------------
-To computer new recoomendations, press the "Compute_new_recommendations" button from the Recommendation Engine application. This will launch the recommendation processor (LINK explaining recommendation processor) on the transaction log to get recommendations. 
+To compute new recomendations, press the "Compute_new_recommendations" button from the Recommendation Engine application. This will launch the recommendation processor on the transaction log to get recommendations. 
 
 ![Compute new recommendations](/Images/compute new.png)
 
