@@ -58,13 +58,13 @@ As you may have guessed, this store URL was created dynamically for this particu
 Product recommendations in action on the web store
 -----------------------------------------------------------
 To see how product recommendations work:
-- Step 1: Go to myStore home page: TO BE WRITTEN
-- Step 2: Find a product called “xyz” and put it in your shopping cart: TO BE WRITTEN
-- Step 3: To go check out: TO BE WRITTEN
+- Step 1: Go to Web Store home page.
+- Step 2: Find any product called and put it in your shopping cart.
+- Step 3: To go check out by clicking on the shopping cart on the top right. 
 
 ![recommendations](/Images/initial recommendations.png)
 
-Here is your XYZ in the cart, and you can also see a number of related products that were chosen by the web store to convince me to buy more. That’s how product recommendation works, in a nutshell.
+Here is your product in the cart, and you can also see a number of related products that were chosen by the web store to convince me to buy more. That’s how product recommendation works, in a nutshell.
 
 
 How was this product recommendation module incorporated into the web store?
