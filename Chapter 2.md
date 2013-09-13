@@ -119,7 +119,7 @@ Specify environment name as "Test" (or a name of your own preference), select "Q
 
 Add Amazon cloud to “Test” environment
 --------------------------------------
-To set connect your Amazon cloud account to your own environment, press "Set a cloud account" from the "Environments" tab. Choose previously created cloud account name. 
+To connect your Amazon cloud account to your own environment, press "Set a cloud account" from the opened "Environments" tab. Choose previously created cloud account name. 
 
 ![Set cloud](/Images/Test add cloud.png)
 
