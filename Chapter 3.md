@@ -38,14 +38,14 @@ Can I see what happened when my web store was launched?
 -------------------------------------------------------
 Qubell starts every workflow by creating an execution plan consisting of steps in the workflow, and then proceeds to executive that plan. You can always see a plan in real time under the table “Jobs” on Qubell portal. Once the job is complete, it will store the log of what happened for us to examine at any time. 
 
-Navigate to the "Jobs" tab from your Web Store (myStore) application main page.
+Navigate to the "Jobs" tab from your Web Store application main page.
 ![Jobs](Images/Jobs.png)
 
 You will find a log of steps taken by Qubell in executing Launch workflow.  
 
 My web store is up. How can I access it?
 ----------------------------------------
-Once the web store successfully launched, you can start interacting with it. To find the URL of the store, check the link under “Web Store” shown on the myStore instance.
+Once the web store successfully launched, you can start interacting with it. To find the URL of the store, check the link under “Web Store” shown on the Web Store instance.
 
 ![Web store URL](Images/Web store url.png)
 
