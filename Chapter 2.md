@@ -50,6 +50,7 @@ Set-up Amazon account
 ---------------------
 Since you’ll be deploying the analytics and sample web store on Amazon cloud, you need to have an Amazon account, configure its security group to allow traffic to your applications, and add that Amazon account to your Qubell portal. 
 - **Obtain Amazon EC2 account capable of creating EC2 nodes and using S3 service.** If you don’t yet have an account on Amazon, it can be done [here](http://aws.amazon.com/account/). 
+- **Create a bucket.** Before any data can be stored in your Amazon S3 account, you must first create a bucket. To do so, please follow the instructions given on [http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html](http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html).
 - **Set-up security group.** The EC2 security group “default” has to allow the following connections to the application you’ll be deploying using your account. 
 
 To configure your security group:
